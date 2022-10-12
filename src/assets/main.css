@@ -1,0 +1,23 @@
+/* BASIC */
+
+@import '../assets/css/basics/base.css';
+@import '../assets/css/basics/helpers.css';
+
+/* SETUP */
+
+@import '../assets/css/setup/typography.css';
+
+/* CMPS */
+
+@import '../assets/css/cmps/app-header.css';
+@import '../assets/css/cmps/toy-list.css';
+@import '../assets/css/cmps/toy-preview.css';
+@import '../assets/css/cmps/toy-filter.css';
+@import '../assets/css/cmps/google-maps.css';
+
+/* Views */
+
+@import '../assets/css/views/toy-edit.css';
+@import '../assets/css/views/toy-details.css';
+
+

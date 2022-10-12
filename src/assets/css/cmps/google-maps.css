@@ -1,0 +1,27 @@
+.places-btns {
+    font-weight: bold;
+    font-style: italic;
+}
+.google-map {
+    margin: auto;
+    border-radius: 5px;
+}
+
+.places-btns {
+    display: inline;
+    
+}
+.places-btns .btn {
+    margin: 5px 5px 5px 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    border: .5px solid rgb(187, 187, 187);
+    transition: background-color .2s;
+    background-color: white;
+
+}
+
+.places-btns .btn:hover {
+    background-color: bisque;
+}

@@ -1,0 +1,26 @@
+
+// BASIC
+@import './basics/buttons';
+@import './basics/helpers';
+@import './basics/base';
+@import './basics/layout';
+
+// SETUP
+@import './setup/typography';
+@import './setup/variable';
+@import './setup/mixins';
+
+// CMPS
+@import './cmps/app-header.scss';
+@import './cmps/google-maps.scss';
+@import './cmps/toy-filter.scss';
+@import './cmps/toy-list.scss';
+@import './cmps/toy-preview.scss';
+@import './cmps/user-msg.scss';
+
+//VIEWS
+
+@import './views/toy-details.scss';
+@import './views/toy-edit.scss';
+@import './views/toy-review.scss';
+// @import './views/signup-login.scss';

@@ -1,0 +1,43 @@
+.toy-filter {
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(196, 196, 196);
+    
+    background-color: rgb(246, 250, 253);
+
+    input:not(.check-box) {
+        // font-size: .5rem;
+        box-shadow: 0px 1px 5px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+        border: none;
+        margin-right: 10px;
+        border-radius: 10px;
+        padding: 7px;
+        outline: none;
+        transition: .3s;
+        background-color: rgb(220 230 236 / 64%);
+
+    }
+
+    input:focus {
+        background-color: rgb(255, 255, 255);
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    select {
+        border-radius: 5px;
+    }
+}
+
+
+
+
